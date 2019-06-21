@@ -5,6 +5,8 @@ package demo
 // Now we also have logical operators:
 // && || !=
 // All of these operators are allowed in Kotlin.
+// When works like switch statements in alternate languages.
+// This is essentially the same as above, but using when.
 
 fun conditionals() {
 
@@ -18,8 +20,7 @@ fun conditionals() {
                 println("Go to Grade $grade")}
         else {println("Go to College!")}
 
-        // When works like switch statements in alternate languages.
-        // This is essentially the same as above, but using when.
+
         when(age){
                 0,1,2,3,4 -> println("Go To Preschool")
                 5 -> println("Go To Kindergarten")
