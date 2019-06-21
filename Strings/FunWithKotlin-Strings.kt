@@ -1,23 +1,23 @@
 package hello
 
-fun main() {
+//Super Simple hello world!
+fun hello_world():
     println("Hello World")
+
+hello_world()
+
+fun main() {
+
+    //Setting var's to type INT.
     var bigInt: Int = Int.MAX_VALUE
     var smallInt: Int = Int.MIN_VALUE
 
     println("Big value: $bigInt")
     println("Big value: $smallInt")
 
-    var item = true
-    if (item is Boolean){
-        println("True!")
-    }
-
     var stuff: Int = 12345 * 12
     var items: String = "Asdasd"
-    //var moreStuff: Int = 12
-    //var equals : Int = stuff * moreStuff
-    //println("$equals")
+
     println("$stuff")
     println("$items")
 
